@@ -6,8 +6,6 @@ import AuthContext from '../../store/auth-context'
 const Navigation = (props) => {
     const ctx = useContext(AuthContext);
 
-
-
                 return (
                         <nav className={classes.nav}>
                             <ul>
@@ -30,12 +28,6 @@ const Navigation = (props) => {
                             </ul>
                         </nav>
                     )
-
-
-
-
-
-
 
 }
 
